@@ -192,15 +192,15 @@ etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 
 # SENSORS
-lib/libqmi_cci_system.so
-lib64/libqmi_cci_system.so
-lib64/libsensor1.so
-lib64/libsensor_reg.so
-lib64/libsensor_test.so
+lib/libqmi_cci_system.so;DISABLE_DEPS
+lib64/libqmi_cci_system.so;DISABLE_DEPS
+lib64/libsensor1.so;DISABLE_DEPS
+lib64/libsensor_reg.so;DISABLE_DEPS
+lib64/libsensor_test.so;DISABLE_DEPS
 
 # TOUCH
 somc/touch/images/big_touch.png:vendor/sony/touch/images/big_touch.png
 somc/touch/images/splash.png:vendor/sony/touch/images/splash.png
 
 # UDATEMISCTA
-bin/updatemiscta
+bin/updatemiscta;DISABLE_DEPS

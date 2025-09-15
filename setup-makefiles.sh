@@ -12,6 +12,9 @@ set -e
 DEVICE=lilac
 VENDOR=sony
 
+DEVICE_COMMON=yoshino-common
+VENDOR_COMMON=sony
+
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi

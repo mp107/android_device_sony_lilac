@@ -4,22 +4,22 @@
 # AUDIO
 vendor/etc/acdbdata/Sony/Sony_yoshino_Handset_cal.acdb
 vendor/etc/acdbdata/Sony/Sony_yoshino_Speaker_cal.acdb
-vendor/lib/hw/audio.primary.msm8998.so
-vendor/lib/soundfx/libsonypostprocbundle.so
-vendor/lib/soundfx/libsonysweffect.so
-vendor/lib/soundfx/libznrwrapper.so
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libqtigef.so
-vendor/lib/librebuffering.so
-vendor/lib/libsmwrapper.so
-vendor/lib/libsonydseehxwrapper.so
-vendor/lib/libtinycompress_vendor.so
+vendor/lib/hw/audio.primary.msm8998.so;DISABLE_DEPS
+vendor/lib/soundfx/libsonypostprocbundle.so;DISABLE_DEPS
+vendor/lib/soundfx/libsonysweffect.so;DISABLE_DEPS
+vendor/lib/soundfx/libznrwrapper.so;DISABLE_DEPS
+vendor/lib/libacdb-fts.so;DISABLE_DEPS
+vendor/lib/libacdbloader.so;DISABLE_DEPS
+vendor/lib/libacdbrtac.so;DISABLE_DEPS
+vendor/lib/libadiertac.so;DISABLE_DEPS
+vendor/lib/libaudcal.so;DISABLE_DEPS
+vendor/lib/libaudio_log_utils.so;DISABLE_DEPS
+vendor/lib/libaudioalsa.so;DISABLE_DEPS
+vendor/lib/libqtigef.so;DISABLE_DEPS
+vendor/lib/librebuffering.so;DISABLE_DEPS
+vendor/lib/libsmwrapper.so;DISABLE_DEPS
+vendor/lib/libsonydseehxwrapper.so;DISABLE_DEPS
+vendor/lib/libtinycompress_vendor.so;DISABLE_DEPS
 
 # AUDIO_CONFIGS
 vendor/etc/audio_platform_info.xml
@@ -42,21 +42,21 @@ vendor/etc/sony_effect/znr_param_48k_SubSemCam.tbl
 vendor/etc/sony_effect/znr_param_48k_SubSoiCam.tbl
 
 # AUDIO_SOUNDTRIGGER
-vendor/lib/hw/sound_trigger.primary.msm8998.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/vendor.qti.voiceprint@1.0.so
+vendor/lib/hw/sound_trigger.primary.msm8998.so;DISABLE_DEPS
+vendor/lib/libgcs-calwrapper.so;DISABLE_DEPS
+vendor/lib/libgcs-ipc.so;DISABLE_DEPS
+vendor/lib/libgcs-osal.so;DISABLE_DEPS
+vendor/lib/libgcs.so;DISABLE_DEPS
+vendor/lib/vendor.qti.voiceprint@1.0.so;DISABLE_DEPS
 
 # BLUETOOTH
-vendor/bin/btnvtool
-vendor/bin/hci_qcomm_init
-vendor/lib/libbtnv.so
-vendor/lib64/libbtnv.so
+vendor/bin/btnvtool;DISABLE_DEPS
+vendor/bin/hci_qcomm_init;DISABLE_DEPS
+vendor/lib/libbtnv.so;DISABLE_DEPS
+vendor/lib64/libbtnv.so;DISABLE_DEPS
 
 # CAMERA
-vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
+vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service;DISABLE_DEPS
 vendor/camera/CHI08BS0/color_ctrl.dat
 vendor/camera/CHI08BS0/dataflow.dat
 vendor/camera/CHI08BS0/exposure_ctrl.dat
@@ -139,100 +139,100 @@ vendor/camera/snapshot.dat
 vendor/camera/streaming.dat
 vendor/camera/supported.dat
 vendor/camera/version.dat
-vendor/lib/camera/libexcal_ckb_service_plugin.so
-vendor/lib/camera/libexcal_color_ctrl_plugin.so
-vendor/lib/camera/libexcal_debug_display_plugin.so
-vendor/lib/camera/libexcal_exposure_ctrl_plugin.so
-vendor/lib/camera/libexcal_face_detector_plugin.so
-vendor/lib/camera/libexcal_flicker_detector_plugin.so
-vendor/lib/camera/libexcal_focus_stats_conv_plugin.so
-vendor/lib/camera/libexcal_food_comp_plugin.so
-vendor/lib/camera/libexcal_food_detector_plugin.so
-vendor/lib/camera/libexcal_hal_ctrl_plugin.so
-vendor/lib/camera/libexcal_hdr_plugin.so
-vendor/lib/camera/libexcal_idt_ctrl_plugin.so
-vendor/lib/camera/libexcal_image_conv_plugin.so
-vendor/lib/camera/libexcal_iq_ctrl_plugin.so
-vendor/lib/camera/libexcal_jpeg_enc_plugin.so
-vendor/lib/camera/libexcal_lens_ctrl_plugin.so
-vendor/lib/camera/libexcal_motion_detector_plugin.so
-vendor/lib/camera/libexcal_motion_estimation_plugin.so
-vendor/lib/camera/libexcal_multiframe_nr_plugin.so
-vendor/lib/camera/libexcal_object_tracker_plugin.so
-vendor/lib/camera/libexcal_prc_image_conv_plugin.so
-vendor/lib/camera/libexcal_process_ctrl_plugin.so
-vendor/lib/camera/libexcal_raw_proc_plugin.so
-vendor/lib/camera/libexcal_req_ctrl_plugin.so
-vendor/lib/camera/libexcal_scene_detector_plugin.so
-vendor/lib/camera/libexcal_snapshot_ctrl_plugin.so
-vendor/lib/camera/libexcal_splitter_plugin.so
-vendor/lib/camera/libexcal_stream_ctrl_plugin.so
-vendor/lib/hw/camera.qcom.so:vendor/lib/hw/camera.lilac.so
-vendor/lib/libcameralight.so
-vendor/lib/libcammw.so
-vendor/lib/libcammw_util.so
-vendor/lib/libexcal_core.so
-vendor/lib/libexcal_pal.so
-vendor/lib/libexcal_system.so
-vendor/lib/libhal_dbg.so
-vendor/lib/libjpegdhw.so
-vendor/lib/libjpegdmahw.so
-vendor/lib/libjpegehw.so
-vendor/lib/libmmcamera2_cpp_module.so
-vendor/lib/libmmcamera2_mct.so
-vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera_dbg.so
-vendor/lib/libmmcamera_interface.so
-vendor/lib/libmmjpeg.so
-vendor/lib/libmmjpeg_interface.so
-vendor/lib/libmmlib2d_interface.so
-vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmmqjpegdma.so
-vendor/lib/libqomx_core.so
-vendor/lib/libqomx_jpegdec.so
-vendor/lib/libqomx_jpegenc.so
-vendor/lib/libqomx_jpegenc_pipe.so
-vendor/lib/libsomc_chokoballpal.so
-vendor/lib/vendor.somc.camera.device@3.2-impl.so
-vendor/lib/vendor.somc.camera.device@3.3-impl.so
-vendor/lib/vendor.somc.camera.device@3.4-impl.so
-vendor/lib/vendor.somc.hardware.camera.device@1.0.so
-vendor/lib/vendor.somc.hardware.camera.provider@1.0.so
+vendor/lib/camera/libexcal_ckb_service_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_color_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_debug_display_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_exposure_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_face_detector_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_flicker_detector_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_focus_stats_conv_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_food_comp_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_food_detector_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_hal_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_hdr_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_idt_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_image_conv_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_iq_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_jpeg_enc_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_lens_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_motion_detector_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_motion_estimation_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_multiframe_nr_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_object_tracker_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_prc_image_conv_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_process_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_raw_proc_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_req_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_scene_detector_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_snapshot_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_splitter_plugin.so;DISABLE_DEPS
+vendor/lib/camera/libexcal_stream_ctrl_plugin.so;DISABLE_DEPS
+vendor/lib/hw/camera.qcom.so:vendor/lib/hw/camera.lilac.so;DISABLE_DEPS
+vendor/lib/libcameralight.so;DISABLE_DEPS
+vendor/lib/libcammw.so;DISABLE_DEPS
+vendor/lib/libcammw_util.so;DISABLE_DEPS
+vendor/lib/libexcal_core.so;DISABLE_DEPS
+vendor/lib/libexcal_pal.so;DISABLE_DEPS
+vendor/lib/libexcal_system.so;DISABLE_DEPS
+vendor/lib/libhal_dbg.so;DISABLE_DEPS
+vendor/lib/libjpegdhw.so;DISABLE_DEPS
+vendor/lib/libjpegdmahw.so;DISABLE_DEPS
+vendor/lib/libjpegehw.so;DISABLE_DEPS
+vendor/lib/libmmcamera2_cpp_module.so;DISABLE_DEPS
+vendor/lib/libmmcamera2_mct.so;DISABLE_DEPS
+vendor/lib/libmmcamera2_pp_buf_mgr.so;DISABLE_DEPS
+vendor/lib/libmmcamera_dbg.so;DISABLE_DEPS
+vendor/lib/libmmcamera_interface.so;DISABLE_DEPS
+vendor/lib/libmmjpeg.so;DISABLE_DEPS
+vendor/lib/libmmjpeg_interface.so;DISABLE_DEPS
+vendor/lib/libmmlib2d_interface.so;DISABLE_DEPS
+vendor/lib/libmmqjpeg_codec.so;DISABLE_DEPS
+vendor/lib/libmmqjpegdma.so;DISABLE_DEPS
+vendor/lib/libqomx_core.so;DISABLE_DEPS
+vendor/lib/libqomx_jpegdec.so;DISABLE_DEPS
+vendor/lib/libqomx_jpegenc.so;DISABLE_DEPS
+vendor/lib/libqomx_jpegenc_pipe.so;DISABLE_DEPS
+vendor/lib/libsomc_chokoballpal.so;DISABLE_DEPS
+vendor/lib/vendor.somc.camera.device@3.2-impl.so;DISABLE_DEPS
+vendor/lib/vendor.somc.camera.device@3.3-impl.so;DISABLE_DEPS
+vendor/lib/vendor.somc.camera.device@3.4-impl.so;DISABLE_DEPS
+vendor/lib/vendor.somc.hardware.camera.device@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib/vendor.somc.hardware.camera.provider@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # CAMERA_CACAO
-vendor/lib/libcacao_common.so
-vendor/lib/libcacao_process_ctrl.so
-vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so
-vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so
-vendor/lib/vendor.somc.hardware.camera.cacao@3.0-impl.so
-vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so
-vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so
+vendor/lib/libcacao_common.so;DISABLE_DEPS
+vendor/lib/libcacao_process_ctrl.so;DISABLE_DEPS
+vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib/vendor.somc.hardware.camera.cacao@3.0-impl.so;DISABLE_DEPS
+vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # CHARGER
-vendor/bin/charge_service
-vendor/bin/chargemon
-vendor/bin/chargemon_shutdown
+vendor/bin/charge_service;DISABLE_DEPS
+vendor/bin/chargemon;DISABLE_DEPS
+vendor/bin/chargemon_shutdown;DISABLE_DEPS
 
 # CNSS_WIFI
-vendor/bin/cnss-daemon
+vendor/bin/cnss-daemon;DISABLE_DEPS
 
 # DISPLAY
 vendor/etc/qdcm_calib_data_5.xml
 vendor/etc/qdcm_calib_data_8.xml
 
 # DISPLAY_COLOR
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.postproc@1.0.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+vendor/lib64/vendor.display.color@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.display.color@1.1.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.display.postproc@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # DRM
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine
-vendor/lib/libwvhidl.so
-vendor/lib/libwvtee.so
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
-vendor/lib64/libwvtee.so
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine;DISABLE_DEPS
+vendor/lib/libwvhidl.so;DISABLE_DEPS
+vendor/lib/libwvtee.so;DISABLE_DEPS
+vendor/lib64/mediadrm/libwvdrmengine.so;DISABLE_DEPS
+vendor/lib64/libwvhidl.so;DISABLE_DEPS
+vendor/lib64/libwvtee.so;DISABLE_DEPS
 
 # DRM_FIRMWARE
 vendor/firmware/tzwidevine.b00
@@ -255,12 +255,12 @@ vendor/firmware/tzwvcpybuf.b07
 vendor/firmware/tzwvcpybuf.mdt
 
 # DRM_HDCP
-vendor/lib/libhdcprx_module.so
-vendor/lib/libhdcptx_module.so
-vendor/lib/libstagefright_hdcp.so
-vendor/lib64/libhdcprx_module.so
-vendor/lib64/libhdcptx_module.so
-vendor/lib64/libstagefright_hdcp.so
+vendor/lib/libhdcprx_module.so;DISABLE_DEPS
+vendor/lib/libhdcptx_module.so;DISABLE_DEPS
+vendor/lib/libstagefright_hdcp.so;DISABLE_DEPS
+vendor/lib64/libhdcprx_module.so;DISABLE_DEPS
+vendor/lib64/libhdcptx_module.so;DISABLE_DEPS
+vendor/lib64/libstagefright_hdcp.so;DISABLE_DEPS
 
 # DRM_HDCP_FIRMWARE
 vendor/firmware/tzhdcp.b00
@@ -278,11 +278,11 @@ vendor/firmware/a540_zap.b01
 vendor/firmware/a540_zap.mdt
 
 # FINGERPRINT
-vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service
-vendor/lib64/lib_fpc_tac_shared.so
+vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service;DISABLE_DEPS
+vendor/lib64/lib_fpc_tac_shared.so;DISABLE_DEPS
 
 # FINGERPRINT_EXTENSION
-vendor/lib64/com.fingerprints.extension@1.0.so
+vendor/lib64/com.fingerprints.extension@1.0.so;DISABLE_DEPS
 
 # FINGERPRINT_FIRMWARE
 vendor/firmware/tzfingerprint.b00
@@ -296,20 +296,20 @@ vendor/firmware/tzfingerprint.b07
 vendor/firmware/tzfingerprint.mdt
 
 # IDD
-vendor/lib/libidd.so
-vendor/lib/libprotobuf-c.so
-vendor/lib/vendor.semc.system.idd@1.0.so
-vendor/lib64/libidd.so
-vendor/lib64/libprotobuf-c-idd.so
-vendor/lib64/libprotobuf-c.so
-vendor/lib64/vendor.semc.system.idd@1.0.so
+vendor/lib/libidd.so;DISABLE_DEPS
+vendor/lib/libprotobuf-c.so;DISABLE_DEPS
+vendor/lib/vendor.semc.system.idd@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib64/libidd.so;DISABLE_DEPS
+vendor/lib64/libprotobuf-c-idd.so;DISABLE_DEPS
+vendor/lib64/libprotobuf-c.so;DISABLE_DEPS
+vendor/lib64/vendor.semc.system.idd@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # ILLUMINATION
-vendor/bin/hw/illumination_service
-vendor/lib/hw/lights.default.so
-vendor/lib/libsys-utils.so
-vendor/lib64/hw/lights.default.so
-vendor/lib64/libsys-utils.so
+vendor/bin/hw/illumination_service;DISABLE_DEPS
+vendor/lib/hw/lights.default.so;DISABLE_DEPS
+vendor/lib/libsys-utils.so;DISABLE_DEPS
+vendor/lib64/hw/lights.default.so;DISABLE_DEPS
+vendor/lib64/libsys-utils.so;DISABLE_DEPS
 
 # IPA_FIRMWARE
 vendor/firmware/ipa_fws.b01
@@ -317,91 +317,91 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # KOBJEVENTD
-vendor/bin/hw/kobjeventd
-vendor/lib/kobjeventd/touch_cover.so
-vendor/lib64/kobjeventd/touch_cover.so
+vendor/bin/hw/kobjeventd;DISABLE_DEPS
+vendor/lib/kobjeventd/touch_cover.so;DISABLE_DEPS
+vendor/lib64/kobjeventd/touch_cover.so;DISABLE_DEPS
 
 # LIGHT
-vendor/bin/hw/vendor.semc.hardware.light@1.0-service
-vendor/lib/vendor.semc.hardware.light@1.0.so
-vendor/lib64/vendor.semc.hardware.light@1.0.so
+vendor/bin/hw/vendor.semc.hardware.light@1.0-service;DISABLE_DEPS
+vendor/lib/vendor.semc.hardware.light@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.semc.hardware.light@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # MEDIA
-vendor/lib/libOmxAacDec.so
-vendor/lib/libOmxAlacDec.so
-vendor/lib/libOmxAmrDec.so
-vendor/lib/libOmxAmrwbplusDec.so
-vendor/lib/libOmxApeDec.so
-vendor/lib/libOmxG711Dec.so
-vendor/lib/libOmxVpp.so
-vendor/lib/libOmxWmaDec.so
-vendor/lib/libvpplibrary.so
-vendor/lib64/libOmxAacDec.so
-vendor/lib64/libOmxAlacDec.so
-vendor/lib64/libOmxAmrDec.so
-vendor/lib64/libOmxAmrwbplusDec.so
-vendor/lib64/libOmxApeDec.so
-vendor/lib64/libOmxG711Dec.so
-vendor/lib64/libOmxVpp.so
-vendor/lib64/libOmxWmaDec.so
-vendor/lib64/libvpplibrary.so
+vendor/lib/libOmxAacDec.so;DISABLE_DEPS
+vendor/lib/libOmxAlacDec.so;DISABLE_DEPS
+vendor/lib/libOmxAmrDec.so;DISABLE_DEPS
+vendor/lib/libOmxAmrwbplusDec.so;DISABLE_DEPS
+vendor/lib/libOmxApeDec.so;DISABLE_DEPS
+vendor/lib/libOmxG711Dec.so;DISABLE_DEPS
+vendor/lib/libOmxVpp.so;DISABLE_DEPS
+vendor/lib/libOmxWmaDec.so;DISABLE_DEPS
+vendor/lib/libvpplibrary.so;DISABLE_DEPS
+vendor/lib64/libOmxAacDec.so;DISABLE_DEPS
+vendor/lib64/libOmxAlacDec.so;DISABLE_DEPS
+vendor/lib64/libOmxAmrDec.so;DISABLE_DEPS
+vendor/lib64/libOmxAmrwbplusDec.so;DISABLE_DEPS
+vendor/lib64/libOmxApeDec.so;DISABLE_DEPS
+vendor/lib64/libOmxG711Dec.so;DISABLE_DEPS
+vendor/lib64/libOmxVpp.so;DISABLE_DEPS
+vendor/lib64/libOmxWmaDec.so;DISABLE_DEPS
+vendor/lib64/libvpplibrary.so;DISABLE_DEPS
 
 # NFC
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-octopus.conf
 vendor/etc/libnfc-nxp.conf
-vendor/lib/libpn553_fw.so
+vendor/lib/libpn553_fw.so:vendor/lib64/libpn553_fw.so;DISABLE_DEPS
 
 # QMI
-vendor/bin/mlog_qmi_service
+vendor/bin/mlog_qmi_service;DISABLE_DEPS
 
 # QNS
-vendor/bin/qns
+vendor/bin/qns;DISABLE_DEPS
 
 # QSEECOMD
-vendor/bin/qseecomd
-vendor/lib64/libStDrvInt.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+vendor/bin/qseecomd;DISABLE_DEPS
+vendor/lib64/libStDrvInt.so;DISABLE_DEPS
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # QTI_ANT
-vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
-vendor/lib/com.qualcomm.qti.ant@1.0.so
-vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
-vendor/lib64/com.qualcomm.qti.ant@1.0.so
+vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so;DISABLE_DEPS
+vendor/lib/com.qualcomm.qti.ant@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so;DISABLE_DEPS
+vendor/lib64/com.qualcomm.qti.ant@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # QTI_BLUETOOTH
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti;DISABLE_DEPS
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so;DISABLE_DEPS
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so;DISABLE_DEPS
 
 # QTI_ESEPOWERMANAGER
-vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
-vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service;DISABLE_DEPS
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so;DISABLE_DEPS
+vendor/lib64/vendor.qti.esepowermanager@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # QTI_GATEKEEPER
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti;DISABLE_DEPS
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so;DISABLE_DEPS
 
 # QTI_KEYMASTER
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti;DISABLE_DEPS
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterutils.so
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so;DISABLE_DEPS
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so;DISABLE_DEPS
+vendor/lib64/libkeymasterutils.so;DISABLE_DEPS
 
 # QTI_QTEECONNECTOR
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # SCT
-vendor/bin/sct_service
+vendor/bin/sct_service;DISABLE_DEPS
 
 # SECD
-vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
-vendor/lib64/libdevice_security_vendor.so
-vendor/lib64/libsuntory.so
-vendor/lib64/vendor.somc.hardware.security.secd@1.0.so
+vendor/bin/hw/vendor.semc.hardware.secd@1.0-service;DISABLE_DEPS
+vendor/lib64/libdevice_security_vendor.so;DISABLE_DEPS
+vendor/lib64/libsuntory.so;DISABLE_DEPS
+vendor/lib64/vendor.somc.hardware.security.secd@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # SECD_FIRMWARE
 vendor/etc/firmware/tzsuntory.b00
@@ -415,51 +415,49 @@ vendor/etc/firmware/tzsuntory.b07
 vendor/etc/firmware/tzsuntory.mdt
 
 # SENSORS
-vendor/bin/sensors.qti
+vendor/bin/sensors.qti;DISABLE_DEPS
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_somc_product.conf
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/sensor_calibrate.so
-vendor/lib64/sensors.finger-pickup.so
-vendor/lib64/sensors.ssc.so
+vendor/lib64/libsensor1.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib64/libsensor_reg.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+vendor/lib64/libsns_low_lat_stream_stub.so;DISABLE_DEPS
+vendor/lib64/sensor_calibrate.so;DISABLE_DEPS
+vendor/lib64/sensors.finger-pickup.so;DISABLE_DEPS
+vendor/lib64/sensors.ssc.so;DISABLE_DEPS
 
 # TA_QMI
-vendor/bin/ta_qmi_service
-vendor/bin/taimport_vendor
-vendor/lib/libmiscta.so
-vendor/lib/libta.so
-vendor/lib64/libmiscta.so
-vendor/lib64/libta.so
+vendor/bin/ta_qmi_service;DISABLE_DEPS
+vendor/bin/taimport_vendor;DISABLE_DEPS
+vendor/lib/libmiscta.so;DISABLE_DEPS
+vendor/lib/libta.so;DISABLE_DEPS
+vendor/lib64/libmiscta.so;DISABLE_DEPS
+vendor/lib64/libta.so;DISABLE_DEPS
 
 # THERMAL
-vendor/bin/hw/vendor.semc.hardware.thermal@1.0-service
-vendor/bin/thermal-engine
-vendor/etc/thermal-engine.conf
-vendor/lib64/hw/thermal.somc.so
-vendor/lib64/libthermal_engine.so
-vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
-vendor/lib64/vendor.semc.hardware.thermal@1.0.so
+vendor/bin/hw/vendor.semc.hardware.thermal@1.0-service;DISABLE_DEPS
+vendor/lib64/hw/thermal.somc.so;DISABLE_DEPS
+vendor/lib64/libthermal_engine.so;DISABLE_DEPS
+vendor/lib64/libthermalclient.so;DISABLE_DEPS
+vendor/lib64/libthermalioctl.so;DISABLE_DEPS
+vendor/lib64/vendor.semc.hardware.thermal@1.0.so;DISABLE_DEPS
 
 # TIME
 vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/lib/libtime_genoff.so
-vendor/lib64/libtime_genoff.so
+vendor/bin/time_daemon;DISABLE_DEPS
+vendor/lib/libtime_genoff.so;DISABLE_DEPS
+vendor/lib64/libtime_genoff.so;DISABLE_DEPS
 
 # TOUCHBACKLIGHT
-vendor/bin/hw/touchbacklightd
-vendor/lib/liblights-core.so
-vendor/lib64/liblights-core.so
+vendor/bin/hw/touchbacklightd;DISABLE_DEPS
+vendor/lib/liblights-core.so;DISABLE_DEPS
+vendor/lib64/liblights-core.so;DISABLE_DEPS
 
 # TOUCHSCREEN_FIRMWARE
 vendor/firmware/touch_module_id_0xf0.img
 vendor/firmware/touch_module_id_0xf1.img
 
 # TRIMAREA
-vendor/lib64/libtpm.so
+vendor/lib64/libtpm.so;DISABLE_DEPS
 
 # TRIMAREA_FIRMWARE
 vendor/etc/firmware/tztpm.b00
