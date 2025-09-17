@@ -4,7 +4,7 @@
 # AUDIO
 vendor/etc/acdbdata/Sony/Sony_yoshino_Handset_cal.acdb
 vendor/etc/acdbdata/Sony/Sony_yoshino_Speaker_cal.acdb
-vendor/lib/hw/audio.primary.msm8998.so;DISABLE_DEPS
+vendor/lib/hw/audio.primary.msm8998.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 vendor/lib/soundfx/libsonypostprocbundle.so;DISABLE_DEPS
 vendor/lib/soundfx/libsonysweffect.so;DISABLE_DEPS
 vendor/lib/soundfx/libznrwrapper.so;DISABLE_DEPS
